@@ -64,7 +64,6 @@ header nav a:hover{
     color: var(--preto);
     transition: .3s case all;
 }
-
 .box{
     height: 100%;
     width: 100%;
