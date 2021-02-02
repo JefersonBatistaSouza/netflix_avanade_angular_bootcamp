@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #141414;
+}
+
+header img {
+    width: 180px;
+    height: 45px;
+    margin: 15px
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .titulo label {
+    width: 100%;
+    font-size: 50pt;
+}
+
+.container-usuarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.img1 {
+    background-image: url("../midia/usuario2.png");
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url("../midia/usuario.png");
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url("../midia/infantil.png");
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url("../midia/usuario.png");
+    background-size: cover;
+}
+
+.botao {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.botao button {
+    width: 30%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .50);
+    color: #ccc;
+    border: 1px solid rgb(168, 167, 167);
+}

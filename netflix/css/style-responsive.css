@@ -1,0 +1,24 @@
+@media only screen and (max-width:639px) {
+    .container {
+        align-items: center;
+    }
+    .container .titulo label {
+        font-size: 20pt;
+    }
+    .container-usuarios {
+        justify-content: center;
+    }
+    .botao button {
+        width: 100%;
+    }
+    .box {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    main {
+        height: auto;
+        padding-bottom: 20px;
+    }
+}

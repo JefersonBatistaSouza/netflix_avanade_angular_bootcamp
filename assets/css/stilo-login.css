@@ -4,7 +4,7 @@
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 body{
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("/midia/background-login.jpg");
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../../netflix/midia/background-login.jpg");
     background-size: cover;
 }
 header{
@@ -48,7 +48,7 @@ main{
     border-radius: 5px;
     color:#fff;
 }
-.box-login button{
+.box-login .btn-entrar{
     width: 100%;
     padding: 15px;
     background-color: #f00;
@@ -75,3 +75,10 @@ a{
 .box-info .info-recaptcha{
     font-size: 8pt;
 }
+
+/*1 conhecimento aereo
+2 emissao nota fiscal
+3 fatura comercial(ingles) 4 vias só pagina 2
+
+peso medidas
+*/
