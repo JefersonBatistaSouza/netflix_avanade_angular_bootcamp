@@ -1,5 +1,57 @@
-@media only screen and (min-width:1024px){
+
+@media only screen and (max-width:1120px){
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+}
+@media only screen and (min-width:700px){
     .container{
         width:50%;
+    }
+    main .info-filme{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    main{
+        width: 100%;
+        justify-content: end;
+
+    }
+    main .info-filme{
+        margin-left: 10px;
+    }
+    .info-filme .titulo{
+        font-size: 70px;
+    }
+    .info-filme .ranking{
+        font-size:20px;
+    }
+    .info-filme .descricao{
+        font-size: 15px;
+    }
+    .botao button{
+        width: auto;
+    }
+}
+@media only screen and (max-width:280px){
+    .container .icones{
+        width: 200px;
+    }
+    .corrosel-filmes {
+        margin: 0px auto;
+    }
+    .corrosel-filmes .continue-assistindo {
+        font-size: 14px;
     }
 }
