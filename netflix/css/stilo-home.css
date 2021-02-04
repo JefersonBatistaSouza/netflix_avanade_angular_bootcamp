@@ -16,7 +16,7 @@ body{
 }
 .filme-principal{
     height: 500px;
-    background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)100%), url("/netflix/midia/capa-suits.jpg");
+    background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)100%), url("../midia/capa-suits.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
